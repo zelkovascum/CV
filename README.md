@@ -80,6 +80,8 @@ EKS→GKE, RDS→Cloud SQL移行とGitOpsや新規モニタリングツール導
 - GitOpsに合わせた（Docker imageタグなど）CI/CD構築。  
 - モニタリングツールはDatadogを選定。分散トレーシングなどを導入した。  
 - DeploymentのresourceやHPAのチューニングによるコスト抑制を実施。  
+- Aurora→Cloud SQLへのDMSを使った移行。  
+- Cloud SQL Auth Proxyを使ってGKEとCloud SQLの接続。
 
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 
